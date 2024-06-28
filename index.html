@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Representative Selector</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #f0e4d7;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #ff6f61;
+        }
+        button {
+            background-color: #ff6f61;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #ff8f81;
+        }
+        #representative {
+            margin-top: 20px;
+            font-size: 24px;
+            color: #6b4226;
+        }
+        #student-list {
+            margin-top: 20px;
+            font-size: 20px;
+            color: #6b4226;
+           
+        }
+        #student-list ul {
+            list-style: none;
+            text-decoration: none;
+        }
+        footer {
+            margin-top: 50px;
+            font-size:20px;
+            color: #6b4226;
+        }
+    </style>
+</head>
+<body>
+    <h1>Class Representative Selector</h1>
+    <button onclick="selectRepresentative()">Select Representative</button>
+    <p id="representative"></p>
+    <div id="student-list"></div>
+    <footer>Made by Techguruhacks for Hackclub Arcade game</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
